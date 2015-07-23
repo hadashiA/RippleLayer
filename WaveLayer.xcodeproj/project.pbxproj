@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26FA52BD1B61290A00E2811D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA52BC1B61290A00E2811D /* AppDelegate.swift */; };
-		26FA52BF1B61290A00E2811D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA52BE1B61290A00E2811D /* ViewController.swift */; };
-		26FA52C21B61290A00E2811D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FA52C01B61290A00E2811D /* Main.storyboard */; };
-		26FA52C41B61290A00E2811D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FA52C31B61290A00E2811D /* Images.xcassets */; };
-		26FA52C71B61290A00E2811D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26FA52C51B61290A00E2811D /* LaunchScreen.xib */; };
+		26B64EF81B6135890070186C /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B64EF71B6135890070186C /* Wave.swift */; };
+		26B64EFA1B6135C00070186C /* WaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B64EF91B6135C00070186C /* WaveLayer.swift */; };
 		26FA52D31B61290A00E2811D /* WaveLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA52D21B61290A00E2811D /* WaveLayerTests.swift */; };
+		26FA52E51B612A4F00E2811D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA52DD1B612A4F00E2811D /* AppDelegate.swift */; };
+		26FA52E61B612A4F00E2811D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26FA52DE1B612A4F00E2811D /* LaunchScreen.xib */; };
+		26FA52E71B612A4F00E2811D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FA52E01B612A4F00E2811D /* Main.storyboard */; };
+		26FA52E81B612A4F00E2811D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FA52E21B612A4F00E2811D /* Images.xcassets */; };
+		26FA52E91B612A4F00E2811D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26FA52E31B612A4F00E2811D /* Info.plist */; };
+		26FA52EA1B612A4F00E2811D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA52E41B612A4F00E2811D /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26B64EF71B6135890070186C /* Wave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		26B64EF91B6135C00070186C /* WaveLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveLayer.swift; sourceTree = "<group>"; };
 		26FA52B71B61290A00E2811D /* WaveLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26FA52BB1B61290A00E2811D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26FA52BC1B61290A00E2811D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26FA52BE1B61290A00E2811D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		26FA52C11B61290A00E2811D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		26FA52C31B61290A00E2811D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		26FA52C61B61290A00E2811D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		26FA52CC1B61290A00E2811D /* WaveLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FA52D11B61290A00E2811D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26FA52D21B61290A00E2811D /* WaveLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveLayerTests.swift; sourceTree = "<group>"; };
+		26FA52DD1B612A4F00E2811D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26FA52DF1B612A4F00E2811D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26FA52E11B612A4F00E2811D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26FA52E21B612A4F00E2811D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26FA52E31B612A4F00E2811D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FA52E41B612A4F00E2811D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +61,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26B64EF61B6135820070186C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				26B64EF71B6135890070186C /* Wave.swift */,
+				26B64EF91B6135C00070186C /* WaveLayer.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		26FA52AE1B61290A00E2811D = {
 			isa = PBXGroup;
 			children = (
-				26FA52B91B61290A00E2811D /* WaveLayer */,
+				26FA52DC1B612A4F00E2811D /* Examples */,
+				26B64EF61B6135820070186C /* Sources */,
 				26FA52CF1B61290A00E2811D /* WaveLayerTests */,
 				26FA52B81B61290A00E2811D /* Products */,
 			);
@@ -72,27 +87,6 @@
 				26FA52CC1B61290A00E2811D /* WaveLayerTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		26FA52B91B61290A00E2811D /* WaveLayer */ = {
-			isa = PBXGroup;
-			children = (
-				26FA52BC1B61290A00E2811D /* AppDelegate.swift */,
-				26FA52BE1B61290A00E2811D /* ViewController.swift */,
-				26FA52C01B61290A00E2811D /* Main.storyboard */,
-				26FA52C31B61290A00E2811D /* Images.xcassets */,
-				26FA52C51B61290A00E2811D /* LaunchScreen.xib */,
-				26FA52BA1B61290A00E2811D /* Supporting Files */,
-			);
-			path = WaveLayer;
-			sourceTree = "<group>";
-		};
-		26FA52BA1B61290A00E2811D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				26FA52BB1B61290A00E2811D /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		26FA52CF1B61290A00E2811D /* WaveLayerTests */ = {
@@ -110,6 +104,19 @@
 				26FA52D11B61290A00E2811D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26FA52DC1B612A4F00E2811D /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				26FA52DD1B612A4F00E2811D /* AppDelegate.swift */,
+				26FA52DE1B612A4F00E2811D /* LaunchScreen.xib */,
+				26FA52E01B612A4F00E2811D /* Main.storyboard */,
+				26FA52E21B612A4F00E2811D /* Images.xcassets */,
+				26FA52E31B612A4F00E2811D /* Info.plist */,
+				26FA52E41B612A4F00E2811D /* ViewController.swift */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +199,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26FA52C21B61290A00E2811D /* Main.storyboard in Resources */,
-				26FA52C71B61290A00E2811D /* LaunchScreen.xib in Resources */,
-				26FA52C41B61290A00E2811D /* Images.xcassets in Resources */,
+				26FA52E91B612A4F00E2811D /* Info.plist in Resources */,
+				26FA52E81B612A4F00E2811D /* Images.xcassets in Resources */,
+				26FA52E61B612A4F00E2811D /* LaunchScreen.xib in Resources */,
+				26FA52E71B612A4F00E2811D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26FA52BF1B61290A00E2811D /* ViewController.swift in Sources */,
-				26FA52BD1B61290A00E2811D /* AppDelegate.swift in Sources */,
+				26B64EF81B6135890070186C /* Wave.swift in Sources */,
+				26FA52EA1B612A4F00E2811D /* ViewController.swift in Sources */,
+				26B64EFA1B6135C00070186C /* WaveLayer.swift in Sources */,
+				26FA52E51B612A4F00E2811D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,20 +246,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		26FA52C01B61290A00E2811D /* Main.storyboard */ = {
+		26FA52DE1B612A4F00E2811D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				26FA52C11B61290A00E2811D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		26FA52C51B61290A00E2811D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26FA52C61B61290A00E2811D /* Base */,
+				26FA52DF1B612A4F00E2811D /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		26FA52E01B612A4F00E2811D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FA52E11B612A4F00E2811D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -340,7 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WaveLayer/Info.plist;
+				INFOPLIST_FILE = Examples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -350,7 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WaveLayer/Info.plist;
+				INFOPLIST_FILE = Examples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +419,7 @@
 				26FA52D81B61290A00E2811D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26FA52D91B61290A00E2811D /* Build configuration list for PBXNativeTarget "WaveLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +428,7 @@
 				26FA52DB1B61290A00E2811D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
