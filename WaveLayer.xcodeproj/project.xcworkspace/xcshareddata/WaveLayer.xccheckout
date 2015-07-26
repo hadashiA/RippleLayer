@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7272E33B-79EF-48EE-B26B-0DB6EB42669D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>91849DB4144B0B9C178F5DE08D27718CFADA76F9</key>
+		<string>github.com:hadashiA/WaveLayer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WaveLayer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>91849DB4144B0B9C178F5DE08D27718CFADA76F9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:hadashiA/WaveLayer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>91849DB4144B0B9C178F5DE08D27718CFADA76F9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>91849DB4144B0B9C178F5DE08D27718CFADA76F9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WaveLayer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

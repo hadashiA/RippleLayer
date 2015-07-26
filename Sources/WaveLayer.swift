@@ -29,7 +29,7 @@ public class WaveLayer : CAShapeLayer {
                 let r = arc4random_uniform(UInt32(10000 * elapsed))
                 if r < 3 {
                     let i = arc4random_uniform(UInt32(self.wave.springs.count))
-                    self.wave.springs[Int(i)].height = -self.randomWaveHeight
+                    self.wave.rippleAt(Int(i), height: self.randomWaveHeight)
                 }
             }
             self.wave.updateSprings(updateValue)
