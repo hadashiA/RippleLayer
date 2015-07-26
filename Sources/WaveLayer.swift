@@ -15,6 +15,8 @@ public class WaveLayer : CAShapeLayer {
         
         let displayLink = CADisplayLink(target: self, selector: "onUpdate:")
         displayLink.addToRunLoop(NSRunLoop.currentRunLoop(), forMode: NSRunLoopCommonModes)
+        
+        self.wave.rippleAt(0, height: self.randomWaveHeight)
     }
     
     required public init(coder aDecoder: NSCoder) {

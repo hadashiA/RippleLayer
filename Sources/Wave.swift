@@ -17,8 +17,8 @@ public final class Wave {
     }
     
     var size: CGSize
-    var density: CGFloat = 0.01
-    var rippleSpeed: CGFloat = 0.025
+    var density: CGFloat = 0.02
+    var rippleSpeed: CGFloat = 0.1
     var springs: [Spring]
     var numNeighbours = 8
 
@@ -41,19 +41,19 @@ public final class Wave {
             self.springs[i].update(self.density, rippleSpeed: self.rippleSpeed)
             // self.springs[i].update(self.size.height, rippleSpeed: self.rippleSpeed)
         }
-        
-        for t in 0..<self.numNeighbours {
-            var leftDeltas = [CGFloat](count: self.springs.count, repeatedValue: 0)
-            var rightDeltas = [CGFloat](count: self.springs.count, repeatedValue: 0)
 
+        var leftDeltas = [CGFloat](count: self.springs.count, repeatedValue: 0)
+        var rightDeltas = [CGFloat](count: self.springs.count, repeatedValue: 0)
+
+        for t in 0..<self.numNeighbours {
             for i in 0..<count {
                 if i > 0 {
                     leftDeltas[i] = spread * (self.springs[i].height - self.springs[i - 1].height)
-                    self.springs[i - 1].velocity += leftDeltas[i - 1]
+                    self.springs[i - 1].velocity += leftDeltas[i]
                 }
                 if i < self.springs.count - 1 {
                     rightDeltas[i] = spread * (self.springs[i].height - self.springs[i + 1].height)
-                    self.springs[i + 1].velocity += rightDeltas[i]
+                     self.springs[i + 1].velocity += rightDeltas[i]
                 }
             }
             
