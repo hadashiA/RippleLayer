@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
                        * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/hadashiA/RippleLayer"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots      = "https://raw.githubusercontent.com/hadashiA/RippleLayer/master/sample_default.gif"
   s.license          = 'MIT'
   s.author           = { "hadashiA" => "dev@hadashikick.jp" }
   s.source           = { :git => "https://github.com/hadashiA/RippleLayer.git", :tag => s.version.to_s }
