@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26B64EF81B6135890070186C /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B64EF71B6135890070186C /* Wave.swift */; };
-		26B64EFA1B6135C00070186C /* WaveLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B64EF91B6135C00070186C /* WaveLayer.swift */; };
+		26B64EF81B6135890070186C /* Ripple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B64EF71B6135890070186C /* Ripple.swift */; };
+		26B64EFA1B6135C00070186C /* RippleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B64EF91B6135C00070186C /* RippleLayer.swift */; };
 		26FA52D31B61290A00E2811D /* WaveLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA52D21B61290A00E2811D /* WaveLayerTests.swift */; };
 		26FA52E51B612A4F00E2811D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA52DD1B612A4F00E2811D /* AppDelegate.swift */; };
 		26FA52E61B612A4F00E2811D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26FA52DE1B612A4F00E2811D /* LaunchScreen.xib */; };
@@ -29,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26B64EF71B6135890070186C /* Wave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
-		26B64EF91B6135C00070186C /* WaveLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveLayer.swift; sourceTree = "<group>"; };
+		26B64EF71B6135890070186C /* Ripple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ripple.swift; sourceTree = "<group>"; };
+		26B64EF91B6135C00070186C /* RippleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleLayer.swift; sourceTree = "<group>"; };
 		26FA52B71B61290A00E2811D /* RippleLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RippleLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FA52CC1B61290A00E2811D /* RippleLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FA52D11B61290A00E2811D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 		26B64EF61B6135820070186C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				26B64EF71B6135890070186C /* Wave.swift */,
-				26B64EF91B6135C00070186C /* WaveLayer.swift */,
+				26B64EF71B6135890070186C /* Ripple.swift */,
+				26B64EF91B6135C00070186C /* RippleLayer.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -220,9 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B64EF81B6135890070186C /* Wave.swift in Sources */,
+				26B64EF81B6135890070186C /* Ripple.swift in Sources */,
 				26FA52EA1B612A4F00E2811D /* ViewController.swift in Sources */,
-				26B64EFA1B6135C00070186C /* WaveLayer.swift in Sources */,
+				26B64EFA1B6135C00070186C /* RippleLayer.swift in Sources */,
 				26FA52E51B612A4F00E2811D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

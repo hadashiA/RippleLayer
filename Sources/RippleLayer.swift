@@ -1,22 +1,22 @@
 import UIKit
 
-public class WaveLayer : CAShapeLayer {
-    private var wave: Wave
+public class RippleLayer : CAShapeLayer {
+    private var ripple: Ripple
     private var beforeTimestamp: CFTimeInterval?
     private var hasRandomSplash: Bool
     private var randomWaveHeight: CGFloat = 100
     
     init(size: CGSize, numSprings: Int = 340, random: Bool = true) {
         self.hasRandomSplash = random
-        self.wave = Wave(size: size, numSprings: numSprings)
+        self.ripple = Ripple(size: size, numSprings: numSprings)
         super.init()
         
-        self.path = self.wave.createPath()
+        self.path = self.ripple.createPath()
         
         let displayLink = CADisplayLink(target: self, selector: "onUpdate:")
         displayLink.addToRunLoop(NSRunLoop.currentRunLoop(), forMode: NSRunLoopCommonModes)
         
-        self.wave.rippleAt(0, height: self.randomWaveHeight)
+        self.ripple.rippleAt(0, height: self.randomWaveHeight)
     }
     
     required public init(coder aDecoder: NSCoder) {
@@ -30,12 +30,12 @@ public class WaveLayer : CAShapeLayer {
             if self.hasRandomSplash {
                 let r = arc4random_uniform(UInt32(10000 * elapsed))
                 if r < 3 {
-                    let i = arc4random_uniform(UInt32(self.wave.springs.count))
-                    self.wave.rippleAt(Int(i), height: self.randomWaveHeight)
+                    let i = arc4random_uniform(UInt32(self.ripple.springs.count))
+                    self.ripple.rippleAt(Int(i), height: self.randomWaveHeight)
                 }
             }
-            self.wave.updateSprings(updateValue)
-            self.path = self.wave.createPath()
+            self.ripple.updateSprings(updateValue)
+            self.path = self.ripple.createPath()
             
         }
         self.beforeTimestamp = displayLink.timestamp

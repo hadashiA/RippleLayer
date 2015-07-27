@@ -1,7 +1,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var waveView: UIView!
+    @IBOutlet weak var rippleView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,12 +16,12 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-        let waveLayer = WaveLayer(
-            size: self.waveView.frame.size,
+        let waveLayer = RippleLayer(
+            size: self.rippleView.frame.size,
             numSprings: 320,
             random: true)
         waveLayer.fillColor = UIColor(red: 204/255, green: 233/255, blue: 249/255, alpha: 1.0).CGColor
-        self.waveView.layer.addSublayer(waveLayer)
+        self.rippleView.layer.addSublayer(waveLayer)
     }
 }
 

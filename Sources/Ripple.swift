@@ -1,6 +1,6 @@
 import UIKit
 
-public final class Wave {
+public final class Ripple {
     struct Spring {
         var height: CGFloat = 0
         var velocity: CGFloat = 0
