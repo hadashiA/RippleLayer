@@ -22,12 +22,12 @@ public final class Ripple {
     var springs: [Spring]
     var numNeighbours = 8
 
-    init(size: CGSize, numSprings: Int = 340) {
+    public init(size: CGSize, numSprings: Int = 340) {
         self.size = size
         self.springs = [Spring](count: numSprings, repeatedValue: Spring())
     }
     
-    func rippleAt(i: Int, height: CGFloat) {
+    public func rippleAt(i: Int, height: CGFloat) {
         if i < 0 || i > self.springs.count - 1 {
             return
         }
@@ -35,7 +35,7 @@ public final class Ripple {
         self.springs[i].height = height
     }
     
-    func updateSprings(spread: CGFloat) {
+    public func updateSprings(spread: CGFloat) {
         let count = self.springs.count
         for i in 0..<count {
             self.springs[i].update(self.density, rippleSpeed: self.rippleSpeed)
@@ -68,7 +68,7 @@ public final class Ripple {
         }
     }
     
-    func createPath() -> CGPath {
+    public func createPath() -> CGPath {
         let path = UIBezierPath()
         path.moveToPoint(CGPoint(x: 0, y: self.size.height))
         for i in 0..<self.springs.count {

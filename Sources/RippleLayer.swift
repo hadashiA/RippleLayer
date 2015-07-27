@@ -6,7 +6,7 @@ public class RippleLayer : CAShapeLayer {
     private var hasRandomSplash: Bool
     private var randomWaveHeight: CGFloat = 100
     
-    init(size: CGSize, numSprings: Int = 340, random: Bool = true) {
+    public init(size: CGSize, numSprings: Int = 340, random: Bool = true) {
         self.hasRandomSplash = random
         self.ripple = Ripple(size: size, numSprings: numSprings)
         super.init()
@@ -23,7 +23,7 @@ public class RippleLayer : CAShapeLayer {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func onUpdate(displayLink: CADisplayLink) {
+    private func onUpdate(displayLink: CADisplayLink) {
         if let beforeTimestamp = self.beforeTimestamp {
             let elapsed = displayLink.timestamp - beforeTimestamp
             let updateValue: CGFloat = CGFloat(elapsed) * 60.0 * 0.1
