@@ -23,7 +23,7 @@ public class RippleLayer : CAShapeLayer {
         fatalError("init(coder:) has not been implemented")
     }
     
-    private func onUpdate(displayLink: CADisplayLink) {
+    internal func onUpdate(displayLink: CADisplayLink) {
         if let beforeTimestamp = self.beforeTimestamp {
             let elapsed = displayLink.timestamp - beforeTimestamp
             let updateValue: CGFloat = CGFloat(elapsed) * 60.0 * 0.1
