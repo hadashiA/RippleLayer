@@ -9,7 +9,7 @@
 Draw splash effect using CGPath.
 
 * Inspired [d-harel/raindrops](https://github.com/d-harel/raindrops).
-* Original algorithm is [this article](http://gamedevelopment.tutsplus.com/tutorials/make-a-splash-with-2d-water-effects--gamedev-236) by [http://tutsplus.com/authors/michael-hoffman](Michael Hoffman)
+* Original algorithm is [this article](http://gamedevelopment.tutsplus.com/tutorials/make-a-splash-with-2d-water-effects--gamedev-236) by [Michael Hoffman](http://tutsplus.com/authors/michael-hoffman)
 
 ![RippleLayer](./sample_default.gif)
 
