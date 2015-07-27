@@ -10,26 +10,22 @@
 Pod::Spec.new do |s|
   s.name             = "RippleLayer"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Unko."
+  s.summary          = "Draw splash effect using CGPath."
   s.description      = <<-DESC
-                       An optional longer description of Unko
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        This provide CALayer subclass. Create a 2D wave splash animation.
+                        more info at: [https://github.com/hadashiA/RippleLayer](https://github.com/hadashiA/RippleLayer)
                        DESC
   s.homepage         = "https://github.com/hadashiA/RippleLayer"
   s.screenshots      = "https://raw.githubusercontent.com/hadashiA/RippleLayer/master/sample_default.gif"
   s.license          = 'MIT'
   s.author           = { "hadashiA" => "dev@hadashikick.jp" }
   s.source           = { :git => "https://github.com/hadashiA/RippleLayer.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/hadashiA'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'RippleLayer' => ['Pod/Assets/*.png']
-  }
+  s.source_files = 'Sources/**/*'
+  # s.resource_bundles = {}
   s.frameworks = 'UIKit'
 end
