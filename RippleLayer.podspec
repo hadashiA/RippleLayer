@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RippleLayer"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Draw splash effect using CGPath."
   s.description      = <<-DESC
                         This provide CALayer subclass. Create a 2D wave splash animation.
