@@ -31,8 +31,8 @@
 /* Begin PBXFileReference section */
 		26B64EF71B6135890070186C /* Wave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
 		26B64EF91B6135C00070186C /* WaveLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveLayer.swift; sourceTree = "<group>"; };
-		26FA52B71B61290A00E2811D /* WaveLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26FA52CC1B61290A00E2811D /* WaveLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FA52B71B61290A00E2811D /* RippleLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RippleLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FA52CC1B61290A00E2811D /* RippleLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RippleLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FA52D11B61290A00E2811D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26FA52D21B61290A00E2811D /* WaveLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveLayerTests.swift; sourceTree = "<group>"; };
 		26FA52DD1B612A4F00E2811D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 		26FA52B81B61290A00E2811D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26FA52B71B61290A00E2811D /* WaveLayer.app */,
-				26FA52CC1B61290A00E2811D /* WaveLayerTests.xctest */,
+				26FA52B71B61290A00E2811D /* RippleLayer.app */,
+				26FA52CC1B61290A00E2811D /* RippleLayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26FA52B61B61290A00E2811D /* WaveLayer */ = {
+		26FA52B61B61290A00E2811D /* RippleLayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26FA52D61B61290A00E2811D /* Build configuration list for PBXNativeTarget "WaveLayer" */;
+			buildConfigurationList = 26FA52D61B61290A00E2811D /* Build configuration list for PBXNativeTarget "RippleLayer" */;
 			buildPhases = (
 				26FA52B31B61290A00E2811D /* Sources */,
 				26FA52B41B61290A00E2811D /* Frameworks */,
@@ -134,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = WaveLayer;
+			name = RippleLayer;
 			productName = WaveLayer;
-			productReference = 26FA52B71B61290A00E2811D /* WaveLayer.app */;
+			productReference = 26FA52B71B61290A00E2811D /* RippleLayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		26FA52CB1B61290A00E2811D /* WaveLayerTests */ = {
+		26FA52CB1B61290A00E2811D /* RippleLayerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26FA52D91B61290A00E2811D /* Build configuration list for PBXNativeTarget "WaveLayerTests" */;
+			buildConfigurationList = 26FA52D91B61290A00E2811D /* Build configuration list for PBXNativeTarget "RippleLayerTests" */;
 			buildPhases = (
 				26FA52C81B61290A00E2811D /* Sources */,
 				26FA52C91B61290A00E2811D /* Frameworks */,
@@ -152,9 +152,9 @@
 			dependencies = (
 				26FA52CE1B61290A00E2811D /* PBXTargetDependency */,
 			);
-			name = WaveLayerTests;
+			name = RippleLayerTests;
 			productName = WaveLayerTests;
-			productReference = 26FA52CC1B61290A00E2811D /* WaveLayerTests.xctest */;
+			productReference = 26FA52CC1B61290A00E2811D /* RippleLayerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 26FA52B21B61290A00E2811D /* Build configuration list for PBXProject "WaveLayer" */;
+			buildConfigurationList = 26FA52B21B61290A00E2811D /* Build configuration list for PBXProject "RippleLayer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26FA52B61B61290A00E2811D /* WaveLayer */,
-				26FA52CB1B61290A00E2811D /* WaveLayerTests */,
+				26FA52B61B61290A00E2811D /* RippleLayer */,
+				26FA52CB1B61290A00E2811D /* RippleLayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,7 +240,7 @@
 /* Begin PBXTargetDependency section */
 		26FA52CE1B61290A00E2811D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 26FA52B61B61290A00E2811D /* WaveLayer */;
+			target = 26FA52B61B61290A00E2811D /* RippleLayer */;
 			targetProxy = 26FA52CD1B61290A00E2811D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -352,7 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Examples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RippleLayer;
 			};
 			name = Debug;
 		};
@@ -362,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Examples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RippleLayer;
 			};
 			name = Release;
 		};
@@ -380,8 +380,8 @@
 				);
 				INFOPLIST_FILE = WaveLayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveLayer.app/WaveLayer";
+				PRODUCT_NAME = RippleLayerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleLayer.app/RippleLayer";
 			};
 			name = Debug;
 		};
@@ -395,15 +395,15 @@
 				);
 				INFOPLIST_FILE = WaveLayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveLayer.app/WaveLayer";
+				PRODUCT_NAME = RippleLayerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RippleLayer.app/RippleLayer";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26FA52B21B61290A00E2811D /* Build configuration list for PBXProject "WaveLayer" */ = {
+		26FA52B21B61290A00E2811D /* Build configuration list for PBXProject "RippleLayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26FA52D41B61290A00E2811D /* Debug */,
@@ -412,7 +412,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26FA52D61B61290A00E2811D /* Build configuration list for PBXNativeTarget "WaveLayer" */ = {
+		26FA52D61B61290A00E2811D /* Build configuration list for PBXNativeTarget "RippleLayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26FA52D71B61290A00E2811D /* Debug */,
@@ -421,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26FA52D91B61290A00E2811D /* Build configuration list for PBXNativeTarget "WaveLayerTests" */ = {
+		26FA52D91B61290A00E2811D /* Build configuration list for PBXNativeTarget "RippleLayerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				26FA52DA1B61290A00E2811D /* Debug */,

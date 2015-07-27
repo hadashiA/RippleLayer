@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WaveLayer.xcodeproj">
+      location = "self:/Users/usr0600211/dev/WaveLayer/RippleLayer.xcodeproj">
    </FileRef>
 </Workspace>

@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7272E33B-79EF-48EE-B26B-0DB6EB42669D</string>
+	<string>9ACC2906-6EC2-4481-9B26-660D35FD85D7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>RippleLayer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>91849DB4144B0B9C178F5DE08D27718CFADA76F9</key>
 		<string>github.com:hadashiA/WaveLayer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WaveLayer.xcodeproj/project.xcworkspace</string>
+	<string>RippleLayer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>91849DB4144B0B9C178F5DE08D27718CFADA76F9</key>
