@@ -1,7 +1,7 @@
 import UIKit
 
 public final class Ripple {
-    enum Edge {
+    public enum Edge {
         case Top
         case Bottom
     }
@@ -21,12 +21,13 @@ public final class Ripple {
         }
     }
     
-    var size: CGSize
-    var density: CGFloat = 0.02
-    var rippleSpeed: CGFloat = 0.1
+    public var size: CGSize
+    public var density: CGFloat = 0.02
+    public var rippleSpeed: CGFloat = 0.1
+    public var numNeighbours = 8
+    public var animateEdge = Edge.Top
+
     var springs: [Spring]
-    var numNeighbours = 8
-    var animateEdge = Edge.Top
 
     public init(size: CGSize, numSprings: Int = 340) {
         self.size = size
