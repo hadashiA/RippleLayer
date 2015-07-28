@@ -1,6 +1,11 @@
 import UIKit
 
 public final class Ripple {
+    enum Edge {
+        case Top
+        case Bottom
+    }
+    
     struct Spring {
         var height: CGFloat = 0
         var velocity: CGFloat = 0
@@ -21,6 +26,7 @@ public final class Ripple {
     var rippleSpeed: CGFloat = 0.1
     var springs: [Spring]
     var numNeighbours = 8
+    var animateEdge = Edge.Top
 
     public init(size: CGSize, numSprings: Int = 340) {
         self.size = size
@@ -70,15 +76,28 @@ public final class Ripple {
     
     public func createPath() -> CGPath {
         let path = UIBezierPath()
-        path.moveToPoint(CGPoint(x: 0, y: self.size.height))
-        for i in 0..<self.springs.count {
-            let spring = self.springs[i]
-            
-            let x = CGFloat(i) * (self.size.width / CGFloat(self.springs.count))
-            let y = spring.height
-            path.addLineToPoint(CGPoint(x: x, y: y))
+        switch self.animateEdge {
+        case .Top:
+            path.moveToPoint(CGPoint(x: 0, y: self.size.height))
+            for i in 0..<self.springs.count {
+                let spring = self.springs[i]
+                
+                let x = CGFloat(i) * (self.size.width / CGFloat(self.springs.count))
+                let y = spring.height
+                path.addLineToPoint(CGPoint(x: x, y: y))
+            }
+            path.addLineToPoint(CGPoint(x: self.size.width, y: self.size.height))
+        case .Bottom:
+            path.moveToPoint(CGPoint(x: 0, y: 0))
+            for i in 0..<self.springs.count {
+                let spring = self.springs[i]
+                
+                let x = CGFloat(i) * (self.size.width / CGFloat(self.springs.count))
+                let y = self.size.height + spring.height
+                path.addLineToPoint(CGPoint(x: x, y: y))
+            }
+            path.addLineToPoint(CGPoint(x: self.size.width, y: 0))
         }
-        path.addLineToPoint(CGPoint(x: self.size.width, y: self.size.height))
         path.closePath()
         return path.CGPath
     }
