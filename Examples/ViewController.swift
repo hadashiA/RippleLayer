@@ -13,7 +13,6 @@ class ViewController: UIViewController {
                 size: self.rippleView.frame.size,
                 numSprings: 320,
                 random: true)
-            // layer.ripple.animateEdge = .Bottom
             layer.fillColor = UIColor(red: 204/255, green: 233/255, blue: 249/255, alpha: 1.0).CGColor
             self.rippleView.layer.addSublayer(layer)
             

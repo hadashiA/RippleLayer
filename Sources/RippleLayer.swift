@@ -1,7 +1,7 @@
 import UIKit
 
 public class RippleLayer : CAShapeLayer {
-    var ripple: Ripple
+    public var ripple: Ripple
     private var beforeTimestamp: CFTimeInterval?
     private var hasRandomSplash: Bool
     private var randomWaveHeight: CGFloat = 100
